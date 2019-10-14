@@ -10,19 +10,18 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   
   <body>
     
     <header>
       <img src="img/Urban_Energy_Conference-LOGO.png">
-      <button class="close">X</button>
+      <i class="fas fa-bars"></i>
     </header>
 
     <nav>
-        <!-- <a href="#Friday"><img src="img/FRI_Type.svg"></a>
-        <a href="#Saturday"><img src="img/FRI_Type.svg"></a>
-        <a href="#Sunday"><img src="img/SUN_Type.svg"></a> -->
       <a href="#Friday" class="Friday_Nav"><img src="img/FRI_Type.svg"></a>
       <a href="#Saturday" class="Saturday_Nav"><img src="img/SAT_Type.svg"></a>
       <a href="#Sunday" class="Sunday_Nav"><img src="img/SUN_Type.svg"></a> 
@@ -31,9 +30,14 @@
     <main>
 
       <section class="page" id="Friday">
-        <h1>Friday</h1>
+        <button class="close"><i class="fas fa-chevron-down"></i></button>
+
+        <div class="Title">
+          <h1>Friday</h1>
             <h2>August 21, 2020</h2>
-        <div class="grid-container">
+        </div>
+
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">
               <h1>8:00am</h1>
@@ -46,9 +50,12 @@
           </div>
         </div>
         
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle"> 
-            <div class="medium-11 medium-offset-1"> 
+            <div class="medium-5 medium-offset-1"> 
+              <img src="img/Conference_Room.jpg" id="horizontal">
+            </div>
+            <div class="medium-5 medium-offset-1"> 
               <h1>10:30am</h1>
                 <h2>Welcome</h2>
                   <p>Patrick Vogel, CEO of Urban Energy, will give a welcome speech.</p>
@@ -56,7 +63,7 @@
           </div>
         </div>
             
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">
               <h1>11:00am</h1>
@@ -64,140 +71,188 @@
                   <p>Keynote speaker Edward Butler will be presentating on Solar Energy in main conference hall. Butler is the CEO of the Solar Energy Company, one of the top 20 solar companies in the United States. He has been the CEO for 5 years and is responsible for jump starting the Butler Solar Project that will provide power to over 25,000 houses across America.</p>
             </div>
             <div class="cell medium-5 medium-offset-1">
-              <img src="img/Person1.jpg" id="Person1">
-            </div>
-        </div>
-
-        <div class="grid-container">
-          <div class="grid-x align-middle" id="Break">
-            <div class="cell medium-5 medium-offset-1 Break">    
-              <h1>12:00pm</h1>
-            </div>
-            <div class="cell medium-5 medium-offset-1 Break">
-              <h2>Lunch Break</h2>
+              <img src="img/Person2.jpg" id="Person2">
             </div>
           </div>
+        </div>
+
+        <div class="Break">    
+              <h1>12:00pm</h1>
+              <h2>Lunch Break</h2>
         </div>
         
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">   
-              <h1>1:00pm</h1>
-                <h2>Keynote</h2>
-                  <p>Keynote speaker Ben Walker will be presentating on Windmills in main conference hall. Walker is the newly appointed CEO of the Global Wind Energy Council. The GWEC is a nation wide organization that represents the wind energy sector. It is made up of about 1,500 conmanies ranging from manufacturers to developers to insurance companies.</p>
+              <img src="img/Person5.jpg">
             </div>
             <div class="cell medium-5 medium-offset-1">
-              <img src="img/Person1.jpg">
+              <h1>1:00pm</h1>
+                <h2>Keynote</h2>
+                  <p>Keynote speaker Ben Goodwin will be presentating on Windmills in main conference hall. Goodwin is the newly appointed CEO of the Global Wind Energy Council. The GWEC is a nation wide organization that represents the wind energy sector. It is made up of about 1,500 conmanies ranging from manufacturers to developers to insurance companies.</p>
             </div>
           </div>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle"> 
-            <div class="medium-11 medium-offset-1">
-              <h1>2:00pm - 6:00pm</h1>
+            <div class="medium-5 medium-offset-1">
+              <h1>3:00pm</h1>
                 <h2>Tradeshow</h2>
-                  <p>Tradeshow exhibit in the North Hall. Be the first to see new technology before it hits the market. Companies from all over the globe will be presenting their new discoveries. First place prize foe Best New Tech will be given out on Saturday, Day 2, at 6pm.</p>
+                  <p>Tradeshow exhibit in the North Hall. Be the first to see new technology before it hits the market. Companies from all over the globe will be presenting their new discoveries. First place prize for Best New Tech will be given out on Saturday, Day 2, at 6pm.</p>
             </div>
+            <div class="medium-5 medium-offset-1">
+              <img src="img/Tradeshow.jpg" id="horizontal">
           </div>
         </div>
       </section>
 
       <section class="page" id="Saturday">
-        <h1>Saturday</h1>
-            <h2>August 22, 2020</h2>
+        <button class="close"><i class="fas fa-chevron-down"></i></button>
 
-        <div class="grid-container">
+        <div class="Title">
+          <h1>Saturday</h1>
+            <h2>August 22, 2020</h2>
+        </div>
+
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">
               <h1>9:00am</h1>
                 <h2>Keynote</h2>
-                  <p>Keynote speaker Deborah Schneider will be presentating on Hydroelectric Power vs Hydrokinetic Power. Schneiter is a scientist and author at Union of Concerned Scientist.</p>
+                  <p>Keynote speaker Rachel Schneider will be presentating on Hydroelectric Power vs Hydrokinetic Power. Schneiter is a scientist and author at Union of Concerned Scientist.</p>
+              </div>
+              <div class="cell medium-5 medium-offset-1">
+                <img src="img/Person4.jpg">
               </div>
             </div>
           </div>
 
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
+            <div class="cell medium-5 medium-offset-1">
+              <img src="img/Panel.jpg">
+            </div>
             <div class="cell medium-5 medium-offset-1">
               <h1>10:00am</h1>
                 <h2>Panel Discussion</h2>
-                  <p>Edward Butler, Ben Walke, and Deborah Schneider will be speaking about the benefits of renewable resources.</p>
+                  <p>Edward Butler, Ben Goodwin, and Rachel Schneider will be speaking about the benefits of renewable resources.</p>
             </div>
           </div>
         </div>
 
-              <h1>12:00pm</h1>
-                <h2>Lunch Break</h2>
-                  <p>Enjoy a brief lunch break at one of the food stands or a neighboring restuarant.</p>
+        <div class="Break">
+          <h1>12:00pm</h1>
+            <h2>Lunch Break</h2>
+        </div>
 
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">
               <h1>2:00pm</h1>
-                <h2>_______</h2>
-                  <p>Keynote speaker on the pros and cons of Nuclear Energy.</p>
+                <h2>Keynote</h2>
+                  <p>Keynote speaker Ronald Walker  will be speaking about the pros and cons of Nuclear Energy. Walker is one of the lead scientists at Urban Energy. He has worked with Urban Energy for over 10 years and is responsible for overseeing all of the renewable resource data.</p>
             </div>
+            <div class="cell medium-5 medium-offset-1">
+              <img src="img/Person1.jpg">
           </div>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
+            <div class="cell medium-5 medium-offset-1">
+              <img src="img/Tradeshow.jpg" id="horizontal">
+            </div>
             <div class="cell medium-5 medium-offset-1">
               <h1>3:00pm</h1>
                 <h2>Tradeshow Day 2</h2>
-                  <p>Tradeshow exhibit in the north hall.</p>
+                  <p>Tradeshow exhibit in the North Hall. Be the first to see new technology before it hits the market. Companies from all over the globe will be presenting their new discoveries. First place prize for Best New Tech will be given out today, Day 2, at 6pm.</p>
             </div>
           </div>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container Event">
           <div class="grid-x align-middle">
             <div class="cell medium-5 medium-offset-1">
               <h1>8:00pm</h1>
                 <h2>Cocktails</h2>
                   <p>Join us in the East Hall for drinks.</p>
             </div>
+            <div class="cell medium-5 medium-offset-1">
+              <img src="img/Cocktails.jpg" id="horizontal">
+            </div>
           </div>
         </div>
       </section>
 
         <section class="page" id="Sunday">
-          <h1>Sunday</h1>
-            <h2>August 23, 2020</h2>
-          <div class="grid-container">
+        <button class="close"><i class="fas fa-chevron-down"></i></button>
+
+          <div class="Title">
+            <h1>Sunday</h1>
+              <h2>August 23, 2020</h2>
+          </div>
+
+          <div class="grid-container Event">
             <div class="grid-x align-middle">
               <div class="cell medium-5 medium-offset-1">  
                 <h1>10:00am</h1>
                   <h2>Brunch</h2>
                     <p>Join us in the East Hall for brunch.</p>
               </div>
-            </div>
-          </div>
-
-          <div class="grid-container">
-            <div class="grid-x align-middle">
               <div class="cell medium-5 medium-offset-1">
-                <h1>12:00pm</h1>
-                  <h2>________</h2>
-                    <p>Keynote speaker on Electric Ears and Charging Stations.</p>
+                <img src="img/Brunch.jpg">
               </div>
             </div>
           </div>
 
-          <div class="grid-container">
+          <div class="grid-container Event">
+            <div class="grid-x align-middle">
+              <div class="cell medium-5 medium-offset-1">
+                <img src="img/Person3.jpg">
+              </div>
+              <div class="cell medium-5 medium-offset-1">
+                <h1>12:00pm</h1>
+                  <h2>Keynote</h2>
+                    <p>Keynote speaker Christian Newman will be talking about electric cars and charging stations. Newman is the lead engineer at ECar Manufacturing and has helped to design ten different ECar Models.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-container Event">
             <div class="grid-x align-middle">
               <div class="cell medium-5 medium-offset-1">
                 <h1>1:00pm</h1>
                   <h2>Closing Remarks</h2>
                     <p>Urban Energy CEO, Patrick Vogel, will give his closing remarks.</p>
               </div>
+              <div class="cell medium-5 medium-offset-1">
+                <img src="img/Conference_Room.jpg" id="horizontal">
             </div>
           </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="grid-container">
+        <div class="grid-x align-middle">
+          <div class="medium-5 medium-offset-1">
+            <h1>Contact Us</h1>
+              <h2>(508)230-5783</h2>
+              <h2>info@UrbanEnergy.com</h2>
+              <h2>47 Urban Energy Ave. Easton, MA.</h2>
+          </div>
+          <div class="medium-5 medium-offset-1">
+            <h1>Follow Us</h1>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-facebook-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <p>&copy; Copyright 2019 | All Rights Reserved</p>
+    </footer>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

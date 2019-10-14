@@ -3,7 +3,7 @@ h1{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
 	text-decoration: underline;
-	text-decoration-color: #EDF0F2;
+	text-decoration-color: #87CA5D;
 }
 
 h2{
@@ -16,4 +16,40 @@ p{
 	color: #44596A;
 	ont-family: 'Roboto', sans-serif;
 	font-weight: 400;
+}
+
+.Title{
+	h1{
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 3rem;
+		letter-spacing: .2rem;
+		font-size: 5rem;
+		padding-top: 4rem;
+		text-decoration: none;
+	}
+
+	h2{
+		text-align: center;
+		padding-bottom: 4rem;
+	}
+}
+
+.Break{
+	margin-bottom: 5rem;
+
+	h1{
+		text-align: center;
+		color: #EDF0F2;
+		line-height: 2rem;
+		padding-top: 1rem;
+	}
+
+	h2{
+		text-align: center;
+		color: #EDF0F2;
+		padding-bottom: .5rem;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
 }

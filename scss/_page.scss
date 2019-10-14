@@ -4,18 +4,36 @@
 }
 
 #ID_Card img{
-	height: 20rem;
+	width: 50%;
 }
 
-#Break{
+.Break{
 	background-color: #87CA5D;
 }
 
-#Person1 img{
-	height: 50%;
-}
+//#Person1 img{
+	//height: 30%;
+//}
 
 .date_heading img{
 	transform: rotate(90deg);
 	width: 100%;
 }
+
+.page img{
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2rem;
+}
+
+.Event{
+	padding-bottom: 5rem;
+}
+
+#horizontal{
+	width: 100%;
+}
+
+
